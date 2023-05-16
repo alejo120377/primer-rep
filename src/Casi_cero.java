@@ -7,7 +7,7 @@ public class Casi_cero {
         System.out.println("INGRESE NUM");
         float num = in.nextFloat();
 
-        if ( num >-1 && num < 0){
+        if (num >-1 && num < 0 || num > 0 && num < 1){
             System.out.println("es casi cero");
 
         }else {
@@ -20,5 +20,7 @@ public class Casi_cero {
 
     }
 }
+
+
 
 
